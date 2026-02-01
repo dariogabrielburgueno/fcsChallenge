@@ -1,0 +1,11 @@
+I approached this challenge by prioritizing the requirements, such as creating custom fields when they were marked as "*__c", 
+and using declarative tools and Apex when each was the right fit. I started by taking into account the variables and requirements defined in the challenge, 
+so there wouldn't be any surprises as I progressed. I also kept a document to write down important requirements so I would be focused on them. 
+I had some issues while doing the challenge that were mainly due to my limited experience, but they were quickly resolved with the help 
+of the documentation and experiences from other developers on Salesforce forums, AI helped once I had the code.  
+There are many ways to solve the challenge so I tried to focuse on ways that could show my problem-solving approach. For example, by creating
+new fields instead of using or modifying standard fields so they could be used in Flows.
+I used Apex and LWC to cover part 2 and 3. The most challenging for me was LWC since it was a long time since I build something with it. 
+I'll keep improving it so that I can show a better version on the Live-Presentation.
+Overall I focused on delivering a functional, scalable solution that balances declarative automation and coding. 
+
