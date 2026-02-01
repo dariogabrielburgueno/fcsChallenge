@@ -1,6 +1,6 @@
 Overview
 This technical challenge is designed to assess candidates on the fundamental skills required for the Junior 
-Salesforce Developer role at FirstChair Services. It focuses on Salesforce development, Apex 
+Salesforce Developer role. It focuses on Salesforce development, Apex 
 programming, declarative tools (Flows), and problem-solving skills.
 
 Part 1
