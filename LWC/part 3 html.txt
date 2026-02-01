@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="All Pending Quotes">
+        <div class="slds-m-around_medium">
+           
+            <template if:true={data}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={data}
+                    columns={columns}
+                    onrowaction={handleRowAction}
+                    hide-checkbox-column>
+                </lightning-datatable>
+            </template>
+            
+             
+            <template if:false={data.length}>
+                <p>No pending quotes found.</p>
+            </template>
+            
+        </div>
+    </lightning-card>
+</template>
