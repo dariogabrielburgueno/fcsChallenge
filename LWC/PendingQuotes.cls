@@ -8,10 +8,11 @@ public with sharing class PendingQuotes {
                 AND Manager__c = :UserInfo.getUserId()
                 Limit 100];
     }
-    @AuraEnabled(cacheable=true)
+    @AuraEnabled
     public static void approveQuote(Id quoteId) {
         Quote q = [SELECT Id, Approval_Status__c FROM Quote WHERE Id = :quoteId LIMIT 1];
         q.Approval_Status__c = 'Approved';
         update q;
     }
+
 }
